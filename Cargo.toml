@@ -1,0 +1,7 @@
+[package]
+name = "gp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+comfy-table = "7.2.2"
