@@ -58,7 +58,7 @@ fn run() -> io::Result<()> {
 
 fn main() {
     if let Err(e) = run() {
-        eprintln!("git-pull-rs: {e}");
+        eprintln!("gp: {e}");
         std::process::exit(1);
     }
 }
